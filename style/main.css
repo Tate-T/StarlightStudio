@@ -988,4 +988,66 @@ header {
   line-height: 120%;
   letter-spacing: 0.1px;
   text-align: left;
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 920px;
+  height: 464px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--white-1, #FFF);
+  position: relative;
+}
+
+.drop-text {
+  color: #171717;
+  font-family: Oswald;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 1.6px;
+}
+
+.drop-form {
+  color: #686868;
+  font-family: Oswald;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+}
+
+.drop-icon {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.drop-button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+  margin-right: 20px;
 }/*# sourceMappingURL=main.css.map */

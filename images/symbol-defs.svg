@@ -69,5 +69,8 @@
 		<symbol viewBox="0 0 48 48" id="icon-burg">
 			<path d="M7.94995 11.95H39.95M7.94995 23.95H39.95M7.94995 35.95H39.95" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
 		</symbol>
+		<symbol id="icon-closeblack" viewBox="0 0 32 32">
+<path d="M26.667 7.303l-1.97-1.97-7.808 7.808-7.808-7.808-1.97 1.97 7.808 7.808-7.808 7.808 1.97 1.97 7.808-7.808 7.808 7.808 1.97-1.97-7.808-7.808 7.808-7.808z"></path>
+</symbol>
 	</defs>
 </svg>
