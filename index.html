@@ -195,7 +195,12 @@
             <div class="works-middle">
               <div class="works-in">
                 <div class="works-container">
-                  <img class="works-img" src="./images/girl.png" />
+                  <picture>
+                    <source srcset="./images/desktop/girl@1x-desktop.webp 1x, ./images/desktop/girl@2x-desktop.webp 2x" media="(min-width: 1200px)">
+                    <source srcset="./images/tablet/girl@1x-tablet.webp 1x, ./images/tablet/girl@2x-tablet.webp 2x" media="(min-width: 720px)">
+                    <source srcset="./images/mobile/girl@1x-mobile.webp 1x, ./images/mobile/girl@2x-mobile.webp 2x " media="(max-width: 719px)">
+                    <img class="works-img" src="./images/mobile/girl@1x-mobile.webp 1x" />
+                  </picture>
                   <div class="works-info">
                     <h2 class="works-codi">Codi</h2>
 
