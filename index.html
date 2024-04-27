@@ -195,7 +195,7 @@
             <div class="works-middle">
               <div class="works-in">
                 <div class="works-container">
-                  <picture>
+                  <picture class="works-img-picture">
                     <source srcset="./images/desktop/girl@1x-desktop.webp 1x, ./images/desktop/girl@2x-desktop.webp 2x" media="(min-width: 1200px)">
                     <source srcset="./images/tablet/girl@1x-tablet.webp 1x, ./images/tablet/girl@2x-tablet.webp 2x" media="(min-width: 720px)">
                     <source srcset="./images/mobile/girl@1x-mobile.webp 1x, ./images/mobile/girl@2x-mobile.webp 2x " media="(max-width: 719px)">
@@ -315,11 +315,17 @@
 
           <ul class="advantages-list">
             <li class="advantages-item">
-              <img
+              <picture>
+                <source srcset="./images/desktop/adventagesfoto@1x-desktop.webp 1x, ./images/desktop/adventagesfoto@2x-desktop.webp 2x" media="(min-width: 1200px)">
+                <source srcset="./images/tablet/adventagesfoto@1x-tablet.webp 1x, ./images/tablet/adventagesfoto@2x-tablet.webp 2x" media="(min-width: 720px)">
+                <source srcset="./images/mobile/adventagesfoto@1x-mobile.webp 1x, ./images/mobile/adventagesfoto@2x-mobile.webp 2x" media="(max-width: 719px)">
+                <img
                 class="advantages-img"
-                src="./images/adventagesfoto.png"
+                src="./images/mobile/adventagesfoto@1x-mobile.webp 1x"
                 alt="element"
               />
+              </picture>
+             
             </li>
             <li class="advantages-item">
               <span class="advantages-number">01</span>
@@ -381,7 +387,7 @@
         </div>
       </section>
       <!-- Feedback from clients -->
-      <!-- <section class="feedback">
+      <section class="feedback">
         <div class="container">
           <div class="feedback-article">
             <h2 class="feedback-title">Feedback from clients</h2>
@@ -414,9 +420,9 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       <!-- questions -->
-      <!-- <section class="form">
+      <section class="form">
         <div class="container">
           <form class="questions" action="">
             <h2 class="form-title">Let’s discuss your question</h2>
@@ -438,10 +444,10 @@
             <button class="form-btn" type="submit">Send</button>
           </form>
         </div>
-      </section> -->
+      </section>
     </main>
     <!-- footer -->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <section class="footer-box">
         <div class="container">
           <div class="footer-flex">
@@ -484,7 +490,7 @@
           <p class="footer-info"><span>&#169;</span>2023 StarlightStudio</p>
         </div>
       </section>
-    </footer> -->
+    </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="drop-button" data-modal-close type="button">

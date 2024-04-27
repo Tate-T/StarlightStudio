@@ -572,6 +572,10 @@ header {
   }
 }
 
+.works-img-picture {
+  flex-shrink: 0;
+}
+
 .works-img {
   width: 312px;
   height: 325px;
