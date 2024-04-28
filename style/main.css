@@ -178,35 +178,35 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../../images/mobile/hero-background@1x-mobile.webp);
+  background-image: url(../images/mobile/hero-background@1x-mobile.webp);
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-section {
-    background-image: url(../../images/mobile/hero-background@2x-mobile.webp);
+    background-image: url(../images/mobile/hero-background@2x-mobile.webp);
   }
 }
 @media screen and (min-width: 720px) {
   .hero-section {
     padding-top: 182px;
     padding-bottom: 260px;
-    background-image: url(../../images/tablet/hero-background@1x-tablet.webp);
+    background-image: url(../images/tablet/hero-background@1x-tablet.webp);
   }
 }
 @media screen and (min-width: 720px) and (min-device-pixel-ratio: 2), screen and (min-width: 720px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 720px) and (min-resolution: 192dpi), screen and (min-width: 720px) and (min-resolution: 2dppx) {
   .hero-section {
-    background-image: url(../../images/tablet/hero-background@2x-tablet.webp);
+    background-image: url(../images/tablet/hero-background@2x-tablet.webp);
   }
 }
 @media screen and (min-width: 1200px) {
   .hero-section {
     padding-top: 130px;
     padding-bottom: 208px;
-    background-image: url(../../images/desktop/hero-background@1x-desktop.webp);
+    background-image: url(../images/desktop/hero-background@1x-desktop.webp);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero-section {
-    background-image: url(../../images/desktop/hero-background@2x-desktop.webp);
+    background-image: url(../images/desktop/hero-background@2x-desktop.webp);
   }
 }
 
@@ -298,95 +298,95 @@ header {
   box-shadow: 0 4px 10px 0 rgba(57, 57, 57, 0.1);
   background-position: center;
   background-size: contain;
-  background-image: url(../../images/mobile/achievements1@1x-mobile.webp);
+  background-image: url(../images/mobile/achievements1@1x-mobile.webp);
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .achievements-item {
-    background-image: url(../../images/mobile/achievements1@2x-mobile.webp);
+    background-image: url(../images/mobile/achievements1@2x-mobile.webp);
   }
 }
 @media screen and (min-width: 720px) {
   .achievements-item {
     width: 308px;
-    background-image: url(../../images/tablet/achievements1@1x-tablet.webp);
+    background-image: url(../images/tablet/achievements1@1x-tablet.webp);
   }
 }
 @media screen and (min-width: 720px) and (min-device-pixel-ratio: 2), screen and (min-width: 720px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 720px) and (min-resolution: 192dpi), screen and (min-width: 720px) and (min-resolution: 2dppx) {
   .achievements-item {
-    background-image: url(../../images/tablet/achievements1@2x-tablet.webp);
+    background-image: url(../images/tablet/achievements1@2x-tablet.webp);
   }
 }
 @media screen and (min-width: 1200px) {
   .achievements-item {
     width: 350px;
-    background-image: url(../../images/desktop/achievements1@1x-desktop.webp);
+    background-image: url(../images/desktop/achievements1@1x-desktop.webp);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .achievements-item {
-    background-image: url(../../images/desktop/achievements1@2x-desktop.webp);
+    background-image: url(../images/desktop/achievements1@2x-desktop.webp);
   }
 }
 
 .achievements-item:nth-child(2) {
-  background-image: url(../../images/mobile/achievements2@1x-mobile.webp);
+  background-image: url(../images/mobile/achievements2@1x-mobile.webp);
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .achievements-item:nth-child(2) {
-    background-image: url(../../images/mobile/achievements2@2x-mobile.webp);
+    background-image: url(../images/mobile/achievements2@2x-mobile.webp);
   }
 }
 @media screen and (min-width: 720px) {
   .achievements-item:nth-child(2) {
     width: 308px;
-    background-image: url(../../images/tablet/achievements2@1x-tablet.webp);
+    background-image: url(../images/tablet/achievements2@1x-tablet.webp);
   }
 }
 @media screen and (min-width: 720px) and (min-device-pixel-ratio: 2), screen and (min-width: 720px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 720px) and (min-resolution: 192dpi), screen and (min-width: 720px) and (min-resolution: 2dppx) {
   .achievements-item:nth-child(2) {
-    background-image: url(../../images/tablet/achievements2@2x-tablet.webp);
+    background-image: url(../images/tablet/achievements2@2x-tablet.webp);
   }
 }
 @media screen and (min-width: 1200px) {
   .achievements-item:nth-child(2) {
     width: 350px;
-    background-image: url(../../images/desktop/achievements2@1x-desktop.webp);
+    background-image: url(../images/desktop/achievements2@1x-desktop.webp);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .achievements-item:nth-child(2) {
-    background-image: url(../../images/desktop/achievements2@2x-desktop.webp);
+    background-image: url(../images/desktop/achievements2@2x-desktop.webp);
   }
 }
 
 .achievements-item:last-child {
-  background-image: url(../../images/mobile/achievements3@1x-mobile.webp);
+  background-image: url(../images/mobile/achievements3@1x-mobile.webp);
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .achievements-item:last-child {
-    background-image: url(../../images/mobile/achievements3@2x-mobile.webp);
+    background-image: url(../images/mobile/achievements3@2x-mobile.webp);
   }
 }
 @media screen and (min-width: 720px) {
   .achievements-item:last-child {
     width: 308px;
-    background-image: url(../../images/tablet/achievements3@1x-tablet.webp);
+    background-image: url(../images/tablet/achievements3@1x-tablet.webp);
   }
 }
 @media screen and (min-width: 720px) and (min-device-pixel-ratio: 2), screen and (min-width: 720px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 720px) and (min-resolution: 192dpi), screen and (min-width: 720px) and (min-resolution: 2dppx) {
   .achievements-item:last-child {
-    background-image: url(../../images/tablet/achievements3@2x-tablet.webp);
+    background-image: url(../images/tablet/achievements3@2x-tablet.webp);
   }
 }
 @media screen and (min-width: 1200px) {
   .achievements-item:last-child {
     width: 350px;
-    background-image: url(../../images/desktop/achievements3@1x-desktop.webp);
+    background-image: url(../images/desktop/achievements3@1x-desktop.webp);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .achievements-item:last-child {
-    background-image: url(../../images/desktop/achievements3@2x-desktop.webp);
+    background-image: url(../images/desktop/achievements3@2x-desktop.webp);
   }
 }
 
